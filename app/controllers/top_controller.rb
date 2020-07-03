@@ -14,4 +14,6 @@ class TopController < ApplicationController
     #render plain:"ここは"+params[:action]+"のページです"
     @lv19s=Lv19.all
   end
+
+
 end
